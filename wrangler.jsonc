@@ -1,0 +1,15 @@
+// Despliegue en Cloudflare Workers (solo archivos estáticos, sin código de servidor).
+// Cloudflare ejecuta `npm run build` y publica build/. Sale solo con cada push a `main`
+// una vez el repositorio esté conectado al Worker `docs` (Workers Builds).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "docs",
+  "compatibility_date": "2026-10-01",
+  "build": {
+    "command": "npm run build"
+  },
+  "assets": {
+    "directory": "./build",
+    "not_found_handling": "404-page"
+  }
+}

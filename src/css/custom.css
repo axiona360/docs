@@ -1,0 +1,128 @@
+/* Centro de ayuda: los mismos colores y letras que axiona360.com.co (fondo casi negro, corona cian, dorado para
+   la llamada a la acción). Solo tema oscuro, igual que Eclipta. */
+
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/sora';
+
+:root,
+[data-theme='dark'] {
+  --ax-fondo: #07080d;
+  --ax-superficie: #12151f;
+  --ax-borde: #232838;
+  --ax-texto: #eceef5;
+  --ax-suave: #9aa1b5;
+  --ax-cian: #4fd1e8;
+  --ax-dorado: #f5b14c;
+
+  --ifm-color-primary: #4fd1e8;
+  --ifm-color-primary-dark: #33c9e3;
+  --ifm-color-primary-darker: #24c3df;
+  --ifm-color-primary-darkest: #1aa2ba;
+  --ifm-color-primary-light: #6bd9ed;
+  --ifm-color-primary-lighter: #79dcef;
+  --ifm-color-primary-lightest: #a3e8f4;
+
+  --ifm-background-color: var(--ax-fondo);
+  --ifm-background-surface-color: var(--ax-superficie);
+  --ifm-navbar-background-color: rgba(7, 8, 13, 0.85);
+  --ifm-footer-background-color: #0b0d14;
+  --ifm-font-color-base: var(--ax-texto);
+  --ifm-color-emphasis-300: var(--ax-borde);
+  --ifm-toc-border-color: var(--ax-borde);
+  --ifm-hr-border-color: var(--ax-borde);
+  --ifm-table-border-color: var(--ax-borde);
+  --ifm-card-background-color: var(--ax-superficie);
+
+  --ifm-font-family-base: 'Inter Variable', system-ui, sans-serif;
+  --ifm-heading-font-family: 'Sora Variable', 'Inter Variable', system-ui, sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-bold: 600;
+  --ifm-line-height-base: 1.7;
+  --ifm-global-radius: 12px;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background: var(--ax-fondo);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--ax-borde);
+  box-shadow: none;
+}
+
+.navbar__logo {
+  height: 1.9rem;
+}
+
+/* «Entrar a Eclipta»: el botón dorado de la web. */
+.navbar__item.nav-entrar {
+  background: var(--ax-dorado);
+  color: #1a1305;
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  margin-inline: 0.5rem;
+  font-weight: 600;
+}
+.navbar__item.nav-entrar:hover {
+  color: #1a1305;
+  filter: brightness(1.08);
+  text-decoration: none;
+}
+.navbar__item.nav-entrar svg {
+  display: none;
+}
+
+.theme-doc-sidebar-container {
+  border-inline-end: 1px solid var(--ax-borde) !important;
+}
+
+.markdown h1,
+.markdown h2 {
+  color: #fff;
+}
+
+.markdown h2 {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--ax-borde);
+}
+
+/* Las tablas anchas se desplazan dentro de su caja en el móvil (comportamiento normal de Docusaurus): no se fuerza
+   display: table, que las hacía desbordar la página. */
+
+/* Avisos (:::tip, :::info…) con el borde de la marca y sin fondo chillón. */
+.alert {
+  --ifm-alert-background-color: var(--ax-superficie);
+  --ifm-alert-foreground-color: var(--ax-texto);
+  border: 1px solid var(--ax-borde);
+  border-inline-start-width: 4px;
+}
+
+.footer {
+  border-top: 1px solid var(--ax-borde);
+}
+
+/* Etiqueta «Próximamente». */
+.proximamente {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ax-dorado);
+  border: 1px solid rgba(245, 177, 76, 0.45);
+  background: rgba(245, 177, 76, 0.1);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  margin-inline-start: 0.35rem;
+  vertical-align: middle;
+}
+
+/* Ruta de menú: Usuarios → Tipos de pausa. */
+.ruta {
+  font-weight: 600;
+  color: var(--ax-cian);
+  white-space: nowrap;
+}

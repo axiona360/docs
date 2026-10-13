@@ -1,0 +1,156 @@
+.portada {
+  position: relative;
+  overflow: hidden;
+  padding: 6rem 0 5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--ax-borde);
+}
+
+/* El eclipse: un disco negro con su corona cian, detrás del título. */
+.corona {
+  position: absolute;
+  inset-inline-start: 50%;
+  top: -220px;
+  width: 520px;
+  height: 520px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: var(--ax-fondo);
+  box-shadow: 0 0 80px 18px rgba(79, 209, 232, 0.28), 0 0 220px 60px rgba(79, 209, 232, 0.1);
+  pointer-events: none;
+}
+
+.portada :global(.container) {
+  position: relative;
+}
+
+.antetitulo {
+  color: var(--ax-cian);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.titulo {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.subtitulo {
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  color: var(--ax-suave);
+  font-size: 1.1rem;
+}
+
+.botones {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.botonPrincipal,
+.botonSecundario {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: filter 0.15s, border-color 0.15s;
+}
+
+.botonPrincipal {
+  background: var(--ax-dorado);
+  color: #1a1305 !important;
+}
+.botonPrincipal:hover {
+  filter: brightness(1.08);
+}
+
+.botonSecundario {
+  border: 1px solid var(--ax-borde);
+  color: var(--ax-texto) !important;
+}
+.botonSecundario:hover {
+  border-color: var(--ax-cian);
+}
+
+.seccion {
+  padding: 3.5rem 0 0;
+}
+
+.seccion h2 {
+  margin-bottom: 1.25rem;
+}
+
+.rejillaRoles,
+.rejilla {
+  display: grid;
+  gap: 1rem;
+}
+.rejillaRoles {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.rejilla {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.tarjetaRol,
+.tarjeta {
+  display: block;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--ax-borde);
+  border-radius: 16px;
+  background: var(--ax-superficie);
+  color: var(--ax-texto) !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.tarjetaRol:hover,
+.tarjeta:hover {
+  border-color: var(--ax-cian);
+  transform: translateY(-2px);
+}
+.tarjetaRol h3 {
+  color: var(--ax-cian);
+}
+.tarjetaRol p,
+.tarjeta p {
+  color: var(--ax-suave);
+  margin: 0;
+}
+
+.ayuda {
+  margin: 4rem 0 5rem;
+  padding: 2rem;
+  border: 1px solid var(--ax-borde);
+  border-radius: 16px;
+  background: var(--ax-superficie);
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ayuda h2 {
+  margin-bottom: 0.25rem;
+}
+.ayuda p {
+  margin: 0;
+  color: var(--ax-suave);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tarjetaRol,
+  .tarjeta {
+    transition: none;
+  }
+  .tarjetaRol:hover,
+  .tarjeta:hover {
+    transform: none;
+  }
+}
