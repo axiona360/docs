@@ -104,22 +104,6 @@ body {
   border-top: 1px solid var(--ax-borde);
 }
 
-/* Etiqueta «Próximamente». */
-.proximamente {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--ax-dorado);
-  border: 1px solid rgba(245, 177, 76, 0.45);
-  background: rgba(245, 177, 76, 0.1);
-  border-radius: 999px;
-  padding: 0.1rem 0.55rem;
-  margin-inline-start: 0.35rem;
-  vertical-align: middle;
-}
-
 /* Ruta de menú: Usuarios → Tipos de pausa. */
 .ruta {
   font-weight: 600;

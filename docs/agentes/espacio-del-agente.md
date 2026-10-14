@@ -39,9 +39,10 @@ De izquierda a derecha:
 - **El botón de pausa**. Ver [Pausas](/guia/agentes/pausas).
 - **Diestro / Zurdo**.
 - **Métricas**: abre **Mis métricas** (ver abajo).
-- **Notificaciones**: la campanita del agente <span className="proximamente">Próximamente</span>
 - **Tu inicial y tu nombre**, con un puntito de color que muestra tu estado.
 - **Cerrar sesión**.
+
+{/* INTERNO, no se muestra al cliente. Próximamente: la campanita de Notificaciones del agente (el botón existe y no hace nada). */}
 
 ## Tus estados
 

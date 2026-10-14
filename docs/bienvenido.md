@@ -35,5 +35,4 @@ Antes de empezar conviene tener claras cuatro ideas:
 ## Cómo leer esta guía
 
 - Los nombres de menús y botones van en **negrita**, tal como aparecen en la pantalla. Un camino de menús se escribe así: **Usuarios → Tipos de pausa**.
-- Lo que Eclipta todavía no hace lleva la etiqueta <span className="proximamente">Próximamente</span>. Puedes ver la lista completa en [Próximamente](/guia/proximamente).
 - Si algo no te queda claro, mira las [Preguntas frecuentes](/guia/preguntas-frecuentes) o escríbenos.

@@ -45,7 +45,7 @@ Las cajas están agrupadas por familia:
 
 | Familia | Cajas |
 |---|---|
-| **Audio** (azul) | **Reproducir**: suena un audio. **Decir Dato**: le lee al cliente un dato suyo, como su saldo o su fecha de pago. **TTS Dinámico** <span className="proximamente">Próximamente</span> |
+| **Audio** (azul) | **Reproducir**: suena un audio. **Decir Dato**: le lee al cliente un dato suyo, como su saldo o su fecha de pago. |
 | **Menús** (morado) | **Menú DTMF**: opciones por teclas. **Capturar Dato**: el cliente teclea un dato. **Dato por Voz**: el cliente dice el dato en voz alta. **Grabar Mensaje**: el cliente deja un mensaje grabado. **Encuesta**: preguntas que se responden con teclas. |
 | **Lógica** (amarillo verdoso) | **Condición**: decide el camino según un dato. **API / Base de datos**: consulta datos de tu base o de otro sistema de tu empresa. **Guardar Variable** y **Cálculo**: guardan y calculan datos durante la llamada. |
 | **Salidas** (rojo) | **Enviar Mensaje**: manda un WhatsApp, un SMS o un correo. **Colgar**: termina la llamada. |
@@ -156,7 +156,8 @@ Le lee al cliente un dato: su saldo, su fecha de pago, su número de cuenta.
 2. En **Variable que se dice**, escribe el dato, por ejemplo `cliente.saldo`.
 3. Elige **Cómo se dice**:
    - **Dígito a dígito**: «uno, cero, dos». Para cédulas, cuentas y teléfonos.
-   - **Número**, **Pesos** y **Fecha** <span className="proximamente">Próximamente</span>: aparecen en la lista, pero mientras no estén listas las palabras grabadas, los números y los pesos se dicen dígito a dígito y las fechas no se dicen.
+   - **Número**, **Pesos** y **Fecha**: por ahora los números y los pesos se dicen dígito a dígito, y las fechas no se dicen.
+{/* INTERNO, no se muestra al cliente. Próximamente: Número, Pesos y Fecha completos (faltan las palabras grabadas); caja TTS Dinámico. */}
 
 Si el dato está vacío, no se dice nada y la llamada sigue.
 

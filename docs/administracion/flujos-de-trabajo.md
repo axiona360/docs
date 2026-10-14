@@ -48,15 +48,17 @@ Dentro del lienzo, el botón **Ajustes** (arriba) abre la configuración del flu
 
 A la izquierda está la **paleta** con todas las cajas, agrupadas por familia y por color. En el centro, el lienzo. Abajo a la izquierda tienes el zoom, el botón para encuadrar todo el dibujo y **Pantalla completa** (sales con Escape).
 
-Las cajas en gris todavía no están disponibles: no se pueden arrastrar y al pasar el ratón dicen «aún no disponible».
+Algunas cajas aparecen en gris: todavía no se pueden usar.
 
-| Familia | Cajas disponibles | Todavía no |
-|---|---|---|
-| **Captura de información** (azul) | **Cargador**: carga registros a la base desde un Excel. | Formulario web, Leads de correos, Webservice y Cargue manual <span className="proximamente">Próximamente</span> |
-| **Canales de entrada** (verde) | **Llamadas entrantes** (un número de teléfono), **Chat web**, **WhatsApp**, **Telegram** y **Correo entrante**. | Facebook Messenger, Instagram, TikTok, Webform entrante, Click to call y SMS entrante <span className="proximamente">Próximamente</span> |
-| **Automatización e IA** (amarillo verdoso) | **Bot** y **IVR**. | Control de calidad IA <span className="proximamente">Próximamente</span> |
-| **Campañas y tareas** (morado) | **Campaña entrante**, **Campaña saliente** y **Campaña blended**. | Tareas de backoffice <span className="proximamente">Próximamente</span> |
-| **Salidas** (rojo) | **Correo saliente** y **Plantilla de WhatsApp**. | SMS saliente y Marcador robótico <span className="proximamente">Próximamente</span> |
+| Familia | Cajas |
+|---|---|
+| **Captura de información** (azul) | **Cargador**: carga registros a la base desde un Excel. |
+| **Canales de entrada** (verde) | **Llamadas entrantes** (un número de teléfono), **Chat web**, **WhatsApp**, **Telegram** y **Correo entrante**. |
+| **Automatización e IA** (amarillo verdoso) | **Bot** y **IVR**. |
+| **Campañas y tareas** (morado) | **Campaña entrante**, **Campaña saliente** y **Campaña blended**. |
+| **Salidas** (rojo) | **Correo saliente** y **Plantilla de WhatsApp**. |
+
+{/* INTERNO, no se muestra al cliente. Próximamente: Formulario web, Leads de correos, Webservice y Cargue manual; Facebook Messenger, Instagram, TikTok, Webform entrante, Click to call y SMS entrante; Control de calidad IA; Tareas de backoffice; SMS saliente y Marcador robótico. */}
 
 Hay una caja más, **Devolver la llamada**, que no está en la paleta: aparece sola cuando activas las devoluciones de llamada en una campaña entrante. Ver [Campañas](/guia/administracion/campanas#devolver-la-llamada-callback).
 

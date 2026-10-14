@@ -82,7 +82,4 @@ Si vale la pena conservarlo (compró, pidió información o hay que volver a lla
 
 Decidir si se guarda es tuyo: tú acabas de hablar con esa persona. Ver [Bases de datos](/guia/administracion/bases-de-datos).
 
-## Lo que viene
-
-- Historial de las atenciones anteriores del cliente, dentro del formulario <span className="proximamente">Próximamente</span>
-- Ver tu propio historial de gestiones desde tu espacio <span className="proximamente">Próximamente</span>
+{/* INTERNO, no se muestra al cliente. Próximamente: historial de atenciones anteriores del cliente dentro del formulario (hoy datos de ejemplo); que el agente vea sus propias gestiones (la página Mis gestiones no tiene entrada). */}

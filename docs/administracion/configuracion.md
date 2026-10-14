@@ -134,7 +134,7 @@ Son los lugares a los que Eclipta envía una copia de tus grabaciones.
    - **Bucket (almacenamiento en la nube)**: un espacio tuyo en la nube.
    - **SFTP (su servidor)** o **FTP / FTPS**: un servidor de tu empresa, que debe ser accesible desde internet.
    - **Descarga directa (a su PC)**: no se envía nada a ningún lado; Eclipta te da un enlace para que descargues tus grabaciones cuando quieras.
-   - **NAS (ruta montada)** <span className="proximamente">Próximamente</span>
+   {/* INTERNO, no se muestra al cliente. Próximamente: destino NAS (ruta montada). */}
 4. Llena los datos de conexión que te pide (servidor, usuario, contraseña, carpeta…). Si no los tienes, pídeselos a quien administra los sistemas de tu empresa.
 5. Deja marcado **Activo** y pulsa **Guardar**.
 

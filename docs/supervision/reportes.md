@@ -182,11 +182,4 @@ El buzón guarda el número y el mensaje, pero no llama de vuelta. Alguien tiene
 
 Para ver cuándo entró y salió cada persona y sus pausas, usa el **Reporte de sesiones** de [Usuarios](/guia/administracion/usuarios).
 
-## Lo que viene
-
-Estos reportes existen pero todavía no tienen entrada en el panel:
-
-- Analítica de llamadas, con indicadores de contestación, abandono, duración media y nivel de servicio <span className="proximamente">Próximamente</span>
-- Informe de pausas por agente y motivo <span className="proximamente">Próximamente</span>
-- Resultados de las encuestas por teclas del IVR <span className="proximamente">Próximamente</span>
-- Buscador de conversaciones <span className="proximamente">Próximamente</span>
+{/* INTERNO, no se muestra al cliente. Próximamente: reportes que existen sin entrada en el panel: analítica de llamadas, informe de pausas, resultados de encuestas del IVR, buscador de conversaciones. */}

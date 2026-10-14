@@ -30,7 +30,8 @@ Un bot atiende los chats de los canales que le asignes:
 2. En **Canales que atiende**, marca los canales: cada uno dice si hoy lo atiende este bot, otro bot, o ninguno («Sin bot: sus mensajes van directo al chat»).
 3. Al marcar un canal que tenía otro bot, pasa a este.
 
-Cada canal lo atiende un solo bot. Los canales se dan de alta en [Canales](/guia/administracion/canales). Facebook Messenger e Instagram <span className="proximamente">Próximamente</span>.
+Cada canal lo atiende un solo bot. Los canales se dan de alta en [Canales](/guia/administracion/canales).
+{/* INTERNO, no se muestra al cliente. Próximamente: Facebook Messenger e Instagram. */}
 
 En la caja de WhatsApp del flujo también puedes elegir **Atender con un bot**. Ver [La caja de WhatsApp](/guia/administracion/flujos-de-trabajo#la-caja-de-whatsapp).
 

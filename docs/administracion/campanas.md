@@ -206,7 +206,8 @@ Después de apagarlo, las llamadas que hizo el callback siguen a la vista: en la
 
 - **Manual**: el agente marca desde su teléfono. El sistema no llama a nadie por su cuenta. Es lo que viene por defecto.
 - **Progresivo**: el sistema marca solo, una llamada por cada agente libre.
-- **Predictivo** <span className="proximamente">Próximamente</span>: aparece en la lista, pero todavía no se puede elegir.
+
+{/* INTERNO, no se muestra al cliente. Próximamente: marcador Predictivo (aparece en gris en la lista). */}
 
 ### Horario del marcador
 

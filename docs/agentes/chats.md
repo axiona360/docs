@@ -89,6 +89,4 @@ Si el cliente ya estaba en la base, los cambios que hiciste en sus datos se guar
 
 Si pierdes internet o se cierra el navegador, Eclipta espera un tiempo de gracia por si vuelves. Si no vuelves a tiempo, tus chats pasan a otro compañero y el cliente recibe un mensaje avisando que lo están transfiriendo.
 
-## Lo que viene
-
-- Respuestas rápidas propias de tu empresa <span className="proximamente">Próximamente</span>
+{/* INTERNO, no se muestra al cliente. Próximamente: respuestas rápidas propias de cada empresa (hoy son tres textos de ejemplo). */}

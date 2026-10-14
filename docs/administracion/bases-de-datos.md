@@ -81,7 +81,8 @@ En la lista de bases, pulsa el ojo (**Ver detalle**). La base se abre con cuatro
 - **Vista**: la base organizada como la definiste, con sus secciones y sus columnas.
 - **Campos**: para editar los campos. Al terminar, pulsa **Guardar campos**.
 - **Registros**: los contactos de la base (entre paréntesis, cuántos hay).
-- **Estadísticas**: el **Total de registros**. Las cifras de **Activos** y **En «no molestar»** todavía no se calculan <span className="proximamente">Próximamente</span>.
+- **Estadísticas**: el **Total de registros**.
+{/* INTERNO, no se muestra al cliente. Próximamente: las cifras de Activos y En «no molestar» todavía no se calculan. */}
 
 ## Los registros
 
@@ -110,7 +111,8 @@ Arriba del formulario, Eclipta te recuerda qué campo no admite repetidos.
 Para eliminar varios o vaciar la base, Eclipta te pide confirmar **dos veces** y luego tu **contraseña**: son datos de clientes, así que no basta con un botón.
 
 :::warning Los registros eliminados no se recuperan
-Un registro eliminado **no va a la papelera** y no se puede recuperar desde el panel. Deja de existir para las campañas: no se le vuelve a llamar ni a escribir. Si vas a necesitar esos datos, asegúrate de tenerlos en tu propio archivo antes de borrar: descargar una base desde el panel todavía no está disponible <span className="proximamente">Próximamente</span>.
+Un registro eliminado **no va a la papelera** y no se puede recuperar desde el panel. Deja de existir para las campañas: no se le vuelve a llamar ni a escribir. Si vas a necesitar esos datos, asegúrate de tenerlos en tu propio archivo antes de borrar.
+{/* INTERNO, no se muestra al cliente. Próximamente: descargar una base desde el panel (los avisos de borrado ya lo sugieren y no hay botón). */}
 :::
 
 ### Marcar un registro como «no llamar»

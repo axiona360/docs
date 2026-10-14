@@ -16,9 +16,10 @@ Guía de USO de Eclipta para los clientes de Axiona360: administradores, supervi
   el usuario ve y las consecuencias de lo que hace («se borra de todos los registros y no se puede recuperar»).
 - Se **tutea**, como el panel de Eclipta. Pasos numerados, nombres de menús y botones **exactos** y en negrita;
   rutas de menú con flecha: **Usuarios → Tipos de pausa**.
-- **No se inventa**: todo sale del código de `eclipta/frontend` (textos en `src/i18n/locales/es/*.json`). Lo que
-  existe en gris o no está construido lleva `<span className="proximamente">Próximamente</span>` y va en
-  `docs/proximamente.md`.
+- **No se inventa**: todo sale del código de `eclipta/frontend` (textos en `src/i18n/locales/es/*.json`).
+- **Lo que todavía no existe NO se le enseña al cliente** (decidido 2026-10-14: «eso es algo interno»). Va como
+  comentario MDX en la página que toca, `{/* INTERNO, no se muestra al cliente. Próximamente: … */}`, y en la lista
+  interna `docs/_proximamente-interno.md` (no se publica: Docusaurus ignora los ficheros que empiezan por «_»).
 - Reglas de negocio de Axiona360: **nunca precios**, nada de «Colnexa», sin nombres de personas, y lo comercial va
   a WhatsApp.
 - No se documenta la consola interna de Axiona360 (es nuestra, no del cliente).

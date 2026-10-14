@@ -70,7 +70,8 @@ Muestra una tablita con tres filas y una columna por canal:
 - **En atención**: lo que se está atendiendo.
 - **Atendidos hoy**.
 
-Los canales son **Llamadas**, **WhatsApp**, **Chat web (chatbot)**, **Correo**, **Messenger**, **Instagram**, **TikTok** <span className="proximamente">Próximamente</span> y **Telegram**.
+Los canales son **Llamadas**, **WhatsApp**, **Chat web (chatbot)**, **Correo** y **Telegram**.
+{/* INTERNO, no se muestra al cliente. Próximamente: Messenger, Instagram y TikTok (sus columnas ya salen en el tablero, siempre en cero). */}
 
 La tarjeta se marca en ámbar cuando hay alguien en cola. Si además hay llamadas esperando y ningún agente libre para tomarlas, se pone en rojo y dice **sin nadie libre**.
 
